@@ -5,6 +5,11 @@ const liDivID = document.getElementById("liDivID");
 // const vaneligSpørsmålHvorfor = document.getElementById(
 //   "vaneligSpørsmålHvorfor"
 // );
+hovedside.addEventListener("click", () => {
+  beskrivelse.innerHTML =
+    "<p> Mennesker i limbo Bergen er en organisaskjon for lengeværende avsylsøkere med endelig avslag. Vi kjemper for å bedre vår situasjon. Gruppen vår består av både kvinner og menn. Noen av oss har barn, andre kom til norge som mindreårige. Vi kommer fra forskjellige land og har ulik bakrunn. Det vi har felles, er at vi lever i Norge uten rett til:</p>";
+});
+
 omArbeidet.addEventListener("click", () => {
   meneskerILombo.innerHTML = alert("test");
 });
