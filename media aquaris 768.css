@@ -30,14 +30,14 @@
     font-size: 40px;
     font-size: 40px;
   }
-  .overskrift {
+  /* .overskrift {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: white;
-  }
+  } */
   button {
     display: flex;
     flex-direction: column;
