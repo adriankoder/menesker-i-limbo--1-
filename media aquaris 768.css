@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: brown;
+    width: 100%;
   }
   .bilde {
     display: flex;
@@ -18,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
+    width: 100%;
     background-color: white;
   }
   .li {
