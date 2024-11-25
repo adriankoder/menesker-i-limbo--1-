@@ -1,7 +1,8 @@
 const omArbeidet = document.getElementById("omArbeidet");
 const meneskerILombo = document.getElementById("beskrivelse");
 const VaneligeSpørsmål = document.getElementById("VaneligeSpørsmål");
-const liDivID = document.getElementById("liDivID");
+const liDivID = document.getElementById("liID");
+const liID = document.getElementById("liID");
 // const vaneligSpørsmålHvorfor = document.getElementById(
 //   "vaneligSpørsmålHvorfor"
 // );
