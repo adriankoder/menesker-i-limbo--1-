@@ -54,6 +54,7 @@ button {
 }
 .overskrift {
   width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
