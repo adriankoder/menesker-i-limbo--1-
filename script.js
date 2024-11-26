@@ -7,12 +7,15 @@ const vaneligSpørsmålHvorfor = document.getElementById(
 );
 const liID = document.getElementById("liID");
 const KontaktOss = document.getElementById("Kontakt");
-
-hovedside.addEventListener("click", () => {
-  meneskerILombo.innerHTML =
-    "<p>Mennesker i limbo Bergen er en organisasjon for lengeværende asylsøkere med endelig avslag. Vi kjemper for å bedre vår situasjon. Gruppen vår består av både kvinner og menn. Noen av oss har barn, andre kom til Norge som mindreårige. Vi kommer fra forskjellige land og har ulik bakgrunn. Det vi har felles, er at vi lever i Norge uten rett til:</p>";
-  liID.style.display = "block";
-});
+if (hovedside) {
+  hovedside.addEventListener("click", () => {
+    meneskerILombo.innerHTML =
+      "<p>Mennesker i limbo Bergen er en organisasjon for lengeværende asylsøkere med endelig avslag. Vi kjemper for å bedre vår situasjon. Gruppen vår består av både kvinner og menn. Noen av oss har barn, andre kom til Norge som mindreårige. Vi kommer fra forskjellige land og har ulik bakgrunn. Det vi har felles, er at vi lever i Norge uten rett til:</p>";
+    liID.style.display = "block";
+  });
+} else if (liID) {
+  liID.style.display = "none";
+}
 
 omArbeidet.addEventListener("click", () => {
   meneskerILombo.innerHTML = "Dette er en test";
