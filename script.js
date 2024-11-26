@@ -20,5 +20,5 @@ VaneligeSpørsmål.addEventListener("click", () => {
 
 KontaktOss.addEventListener("click", () => {
   meneskerILombo.innerHTML =
-    "<p>kontakt oss på telefon 12345678 eller epost:</p> <a href='mailto<>@gmail.com'>exemple@gmail.com</a> <p> støtt oss på vipps </p> <a href='https://www.vipps.no/'>vipps</a>";
+    "<p>kontakt oss på telefon 12345678 eller epost:</p> <a href='mailto<>@gmail.com'>exemple@gmail.com</a> <p> støtt oss på <a href='https://www.vipps.no/'>vipps</a> </p>";
 });
