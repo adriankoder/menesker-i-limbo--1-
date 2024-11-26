@@ -114,6 +114,7 @@ p {
   height: 200px; */
   /* padding-bottom: 100px; */
 }
+
 .li {
   display: flex;
   flex-direction: column;
